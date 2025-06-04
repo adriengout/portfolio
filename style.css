@@ -33,6 +33,10 @@ header h1 {
     margin-bottom: 0.5rem;
 }
 
+.project h3{
+    color: #00ffd5;
+}
+
 header p {
     font-size: 1.2rem;
     color: #ccc;
@@ -61,6 +65,15 @@ section {
     padding: 1rem;
 }
 
+#competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
 .grid {
     display: grid;
     gap: 2rem;
@@ -82,7 +95,8 @@ section {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    margin-top: 2em;
+    gap: 1em;
 }
 
 .skills span {
@@ -114,4 +128,60 @@ footer {
     .grid-2 {
     grid-template-columns: 1fr 1fr;
     }
+}
+
+/*ANIMATION IMAGE PROJETS*/
+
+.project{
+    overflow: hidden;
+    height: 8em;
+    transition: height 1s ease;
+    position: relative;
+}
+  
+.project img{
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 1s ease, max-height 1s ease;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.project video {
+    opacity: 0;
+    max-height: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: opacity 1s ease, max-height 1s ease;
+    display: block;
+    pointer-events: none;
+  }
+  
+  .project:hover video {
+    opacity: 1;
+    max-height: 1000px;
+    pointer-events: auto;
+  }
+
+.project:hover:nth-child(1) {
+    height: 40em; 
+}
+
+.project:hover:nth-child(2) {
+    height: 35em;
+}
+
+.project:hover:nth-child(3){
+    height: 35em;
+}
+
+.project:hover:nth-child(4){
+    height: 35em;
+}
+  
+.project:hover img{
+    opacity: 1;
+    max-height: 1000px;
 }

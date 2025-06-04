@@ -10,6 +10,7 @@
     
   </style>
 </head>
+
 <body>
 
   <header>
@@ -34,19 +35,19 @@
     <h2>🚀 Projets récents</h2>
     <div class="grid grid-2">
       <div class="project">
-        <h3>Portfolio Web</h3>
-        <p>Site web responsive fait avec HTML, CSS et un peu de JavaScript.</p>
-        <img src="screenshot1.jpg" alt="Portfolio" />
+        <h3>Snake Dans Le Terminal</h3>
+        <p>Programmation d'un jeu de "Snake" en langage C dans le terminal.</p>
+        <img src="media/projet_snake.png" alt="snake"/>
       </div>
       <div class="project">
-        <h3>ToDo App</h3>
-        <p>Application React pour gérer les tâches quotidiennes avec Firebase.</p>
-        <img src="screenshot2.jpg" alt="Todo App" />
+        <h3>Création Base De Données</h3>
+        <p>Création d'une base de données à partir d'un diagramme UML puis analyse et calculs dessus.</p>
+        <img src="media/projet_bdd.png" alt="image_projet_bdd"/>
       </div>
       <div class="project">
         <h3>Jeu de la Vie</h3>
         <p>Implémentation en Python du célèbre automate cellulaire de Conway.</p>
-        <img src="screenshot3.jpg" alt="Jeu de la Vie" />
+        <video src="media/Enregistrement de l'écran 2025-06-05 000114.mp4" muted loop></video>
       </div>
       <div class="project">
         <h3>Convertisseur Devise</h3>
@@ -79,5 +80,20 @@
     &copy; 2025 Adrien Gout – Portfolio Étudiant
   </footer>
 
+  <script>
+    document.querySelectorAll('.project').forEach(project => {
+      const video = project.querySelector('video');
+      if (video) {
+        project.addEventListener('mouseenter', () => {
+          video.currentTime = 0;
+          video.play();
+        });
+        project.addEventListener('mouseleave', () => {
+          video.pause();
+          video.currentTime = 0;
+        });
+      }
+    });
+  </script>
 </body>
 </html>
