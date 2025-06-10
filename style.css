@@ -188,7 +188,7 @@ footer {
 }
 
 .project:hover:nth-child(2) {
-    height: 35em;
+    height: 40em;
 }
 
 .project:hover:nth-child(3){
@@ -196,15 +196,15 @@ footer {
 }
 
 .project:hover:nth-child(4){
-    height: 22em;
+    height: 35em;
 }
 
 .project:hover:nth-child(5){
-    height: 40em;
+    height: 35em;
 }
 
 .project:hover:nth-child(6){
-    height: 35em;
+    height: 22em;
 }
   
 .project:hover img{
