@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Étudiant Informatique</title>
+  <title>Portfolio | Adrien GOUT</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="media/incon_portfolio.png">
 </head>
 <body>
   <header>
+    <img src="media/photo_profil.png" alt="photo_profil">
     <h1>Adrien Gout</h1>
-    <p>Étudiant en Informatique & recherche alternance/stage</p>
+    <p>Étudiant en Informatique & recherche alternance/stage (Rennes 35 | Lannion 22)</p>
     <nav>
       <a href="#projets">Projets</a>
       <a href="#competences">Compétences</a>
@@ -29,12 +31,12 @@
   <section class="card">
     <h2><i class="fa-solid fa-school"></i>Études</h2>
     <div>
-      <h3>BUT Informatique</h3>
+      <h3>BUT Informatique <a href="https://iut-lannion.univ-rennes.fr/sites/iut-lannion.univ-rennes.fr/files/medias/files/Plaquette%20BUT%20Informatique.pdf" target="_blank">[Plaquette du BUT]  </a><a href="https://iut-lannion.univ-rennes.fr/sites/iut-lannion.univ-rennes.fr/files/medias/files/PLAQUETTE%20BUT%20INFO%20Parcours%20C%2025-26.pdf" target="_blank">  [Plaquette Alternance]</a></h3>
       <p>IUT de Lannion : Première année, préparation de deuxième année</p>
     </div>
     <div>
-      <h3>BAC Général</h3>
-      <p>Lycée de Montfort-sur-Meu : Bac option Maths NSI (Physique en première)</p>
+      <h3>BAC Général, Mention : Bien</h3>
+      <p>Lycée de Montfort-sur-Meu (35) : Bac option Maths NSI (Physique en première)</p>
     </div>
   </section>
 
@@ -44,33 +46,35 @@
       <div class="project">
         <h3>Snake Dans Le Terminal</h3>
         <p>Programmation d'un jeu de "Snake" en langage C dans le terminal.</p>
-        <img src="media/projet_snake.png" alt="snake"/>
-      </div>
-      <div class="project">
-        <h3>Création Base De Données</h3>
-        <p>Création d'une base de données à partir d'un diagramme UML puis analyse et calculs dessus.</p>
-        <img src="media/projet_bdd.png" alt="image_projet_bdd"/>
-      </div>
-      <div class="project">
-        <h3>Jeu de la Vie</h3>
-        <p>Implémentation en Python du célèbre automate cellulaire de Conway.</p>
-        <video src="media/Enregistrement de l'écran 2025-06-05 000114.mp4" muted loop></video>
-      </div>
-      <div class="project">
-        <h3>Immitation site JO</h3>
-        <p>Recueil des besoins depuis une interview d'un commanditaire puis développement d'un site pour les JO.</p>
-        <img src="media/projet_JO.png" alt="SiteJO" />
+        <a href="https://github.com/adriengout/snakeManuel" target="_blank"><img src="media/projet_snake.png" alt="snake"/></a>
       </div>
       <div class="project">
         <h3>Snake automatisé dans le terminal</h3>
         <p>Modification du snake (deux serpents et automatisé) pour un jeu automatique et otpimisé.</p>
-        <video src="media/projet_Snake_Auto.mp4" muted loop></video>
+        <a href="https://github.com/adriengout/SnakeAutomatique"><video src="media/projet_Snake_Auto.mp4" muted loop></video></a>
       </div>
       <div class="project">
         <h3>Traitement de fichier automatique</h3>
         <p>Mise en place d'une chaine de traitement de fichiers automatique (docker/bash).</p>
-        <img src="media/logo_docker.png" alt="logoDocker">
+        <a href="https://github.com/adriengout/SAE1.03Docker" target="_blank"><img src="media/logo_docker.png" alt="logoDocker"></a>
       </div>
+      <div class="project">
+        <h3>Création Base De Données</h3>
+        <p>Création d'une base de données à partir d'un diagramme UML puis analyse et calculs dessus.</p>
+        <a href="https://github.com/adriengout/bdd_gestionScolaire" target="_blank"><img src="media/projet_bdd.png" alt="image_projet_bdd"/></a>
+      </div>
+      <div class="project">
+        <h3>Jeu de la Vie</h3>
+        <p>Implémentation en Python du célèbre automate cellulaire de Conway.</p>
+        <a href="https://github.com/adriengout/jeuDeLaVie"><video src="media/Enregistrement de l'écran 2025-06-05 000114.mp4" muted loop></video></a>
+      </div>
+      <div class="project">
+        <h3>Immitation site JO</h3>
+        <p>Recueil des besoins depuis une interview d'un commanditaire puis développement d'un site pour les JO.</p>
+        <a href="https://github.com/adriengout/siteJO/tree/main/siteJO" target="_blank"><img src="media/projet_JO.png" alt="SiteJO" /></a>
+      </div>
+      
+      
     </div>
   </section>
 
@@ -84,11 +88,13 @@
       <span>SQL</span>
       <span>Java/fx</span>
       <span>Linux</span>
+      <span>Docker</span>
     </div>
   </section>
 
   <section id="contact" class="card">
     <h2><i class="fa-solid fa-address-card"></i>Contact</h2>
+    <p>À votre disposition pour tout type de contact :</p>
     <p><i class="fa-solid fa-envelope"></i> <a href="mailto:gadrieng@gmail.com">gadrieng@gmail.com</a></p>
     <p><i class="fa-brands fa-github"></i> <a href="https://github.com/adriengout" target="_blank">github.com/adriengout</a></p>
     <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/adrien-gout/" target="_blank">linkedin.com/in/adrien-gout</a></p>
