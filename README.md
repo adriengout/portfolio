@@ -1,40 +1,18 @@
 # Portfolio — Adrien GOUT
 
-> Personal portfolio website (HTML / CSS / JavaScript) showcasing projects, skills and contact info.
+Site web personnel réalisé en **HTML**, **CSS** et **JavaScript**.  
+Ce projet a pour but de présenter mes projets, mes compétences et mes informations de contact.
 
-## Demo
-Live demo: `https://adriengout.github.io/portfolio/`  
+## 🧠 Objectif
+Créer un site portfolio responsive et clair afin de mettre en avant mes réalisations en développement web et mes connaissances techniques.
 
-## About
-This is a personal portfolio built with plain **HTML5**, **CSS3** and **vanilla JavaScript**.  
-It is responsive, accessible, and optimized for performance to present projects, skills and contact information for job / internship / apprenticeship applications.
+## 🧰 Technologies utilisées
+- HTML5  
+- CSS3 (Flexbox / Grid)  
+- JavaScript (ES6)  
+- Git / GitHub Pages
 
-## Features
-- Responsive layout (mobile → desktop)
-- Project gallery with modal details
-- Interactive contact form (frontend only) / mailto link
-- Smooth scrolling and accessible navigation
-- Light / dark theme toggle (optional)
-- Clean semantic HTML and BEM-like CSS structure
-- Deployable to GitHub Pages
-
-## Tech stack
-- HTML5
-- CSS3 (Flexbox / Grid)
-- JavaScript (ES6+)
-- Optional: small build step (npm scripts) — not required for static sites
-
-## Skills demonstrated
-- Semantic HTML & accessibility (aria roles, landmarks)
-- Responsive design (media queries, fluid layouts)
-- DOM manipulation & events (vanilla JS)
-- CSS architecture (BEM, variables)
-- Version control with Git & GitHub
-- Deployment with GitHub Pages
-- Basic performance & SEO best-practices (minified assets, meta tags)
-
-## Installation (local)
-1. Clone the repo:
+## ⚙️ Installation
+1. Cloner le projet :
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/adriengout/portfolio.git
