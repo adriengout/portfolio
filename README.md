@@ -3,8 +3,7 @@
 > Personal portfolio website (HTML / CSS / JavaScript) showcasing projects, skills and contact info.
 
 ## Demo
-Live demo: `https://<your-username>.github.io/<repo-name>/`  
-(Replace `<your-username>` and `<repo-name>` with your GitHub details.)
+Live demo: `https://adriengout.github.io/portfolio/`  
 
 ## About
 This is a personal portfolio built with plain **HTML5**, **CSS3** and **vanilla JavaScript**.  
