@@ -2,9 +2,6 @@
 
 > Personal portfolio website (HTML / CSS / JavaScript) showcasing projects, skills and contact info.
 
-[![Website Status](https://img.shields.io/badge/status-completed-brightgreen)]()
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
-
 ## Demo
 Live demo: `https://<your-username>.github.io/<repo-name>/`  
 (Replace `<your-username>` and `<repo-name>` with your GitHub details.)
